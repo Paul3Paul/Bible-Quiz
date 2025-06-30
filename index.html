@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bible Quiz - Christian Status Vlog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Centered Logo + Title -->
+  <div class="logo-title-wrapper">
+    <img src="/WhatsApp Image 2025-05-29 at 9.13.34 PM.jpeg" alt="Christian Status Logo" class="logo" />
+    <h1 class="animated-title big-title">Christian Status Vlog</h1>
+  </div>
+
+  <!-- NAME ENTRY PAGE -->
+  <div id="name-entry" class="section">
+    <div class="form-box">
+      <p class="prompt">🙏 Enter your Name to Begin the Quiz 🙏</p>
+      <input type="text" id="username" placeholder="Your Name..." />
+      <button onclick="startQuiz()">Start</button>
+    </div>
+  </div>
+
+  <!-- WELCOME PAGE -->
+  <div id="quiz-welcome" class="section hidden">
+    <div class="form-box">
+      <h2>Welcome, <span id="displayName"></span>! ✨</h2>
+      <p>Get ready to test your Bible knowledge!</p>
+      <button onclick="loadQuiz()">Start Bible Quiz</button>
+    </div>
+  </div>
+
+  <!-- THANK YOU PAGE -->
+  <div id="thank-you" class="section hidden">
+    <h1>🎉 Thank You for Participating 🎉</h1>
+    <p>Your results will be shared soon.</p>
+    <div class="links">
+      <a href="https://youtube.com/@christianstatusvlog.?si=wDt1QuvUKnJMN1nj" target="_blank">📺 YouTube</a>
+      <a href=" https://www.instagram.com/christian_status_vlog?igsh=MWQ5NGl4N2g2cnhibQ==" target="_blank">📸 Instagram</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
